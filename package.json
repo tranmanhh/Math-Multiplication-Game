@@ -1,0 +1,14 @@
+{
+  "name": "maths-game",
+  "version": "1.0.0",
+  "description": "A Mathematics gaming website to practice multiplication from 1 to 10.",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass styling.scss styling.css -w"
+  },
+  "author": "Manh Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

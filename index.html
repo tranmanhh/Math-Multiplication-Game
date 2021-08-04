@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Maths Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="styling/styling.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="scorebox">
+                <div id="notification"></div>
+                <div>Score:&nbsp;<span id="score">0</span></div>
+            </div>
+            <div id="screen"></div>
+            <div id="message"></div>
+            <div id="instruction">Click on the correct answer</div>
+            <div id="choice">
+                <input type="submit" id="choice1" value="" onclick="check(1)"></input>
+                <input type="submit" id="choice2" value="" onclick="check(2)"></input>
+                <input type="submit" id="choice3" value="" onclick="check(3)"></input>
+                <input type="submit" id="choice4" value="" onclick="check(4)"></input>
+            </div>
+            <div id="buttonAndTime">
+                <input type="submit" value="Start Game" id="play" onclick="functionGame()"></input>
+                <div id="timeRemaining">Time remaining:&nbsp;<span id="time"></span></div>
+            </div>
+        </div>
+        <script src="JS/code.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+#screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35%;
+    width: 65%;
+    font-size: 130px;
+    font-family: cursive, sans-serif;
+    background-color: $screencolor;
+    @include box_shadow(0px, 5px, #4A639F);
+}

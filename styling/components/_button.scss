@@ -1,0 +1,40 @@
+#buttonAndTime{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    input{
+        background-color: $buttoncolor;
+        width: 20%;
+        min-width: fit-content;
+        height: 100%;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 40%;
+        cursor: pointer;
+        @include box_shadow(0px, 5px, #7AA4BE);
+        @include _transition(0.3s);
+    }
+    input:hover{
+        background-color: #9E90FB;
+        @include box_shadow(0px, 5px, #6E5ED9);
+        color: white;
+    }
+    input:active{
+        @include box_shadow(0, 0, 0);
+        margin-top: 5px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 100%;
+        background-color: #AAD74A;
+        @include box_shadow(0px, 5px, #7FA4B6);
+        padding: 0 12px;
+        border-radius: 5px;
+        opacity: 0;
+    }
+}

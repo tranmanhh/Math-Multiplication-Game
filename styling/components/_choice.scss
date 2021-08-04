@@ -1,0 +1,29 @@
+#choice{
+    width: 65%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 45px;
+    input{
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        color: grey;
+        border-radius: 5px;
+        border: none;
+        @include box_shadow(0px, 5px, #78A5C0);
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        @include _transition(0.3s);
+    }
+    input:hover{
+        background-color: #9E90FB;
+        @include box_shadow(0px, 5px, #6F75CB);
+        color: white;
+    }
+    input:active{
+        @include box_shadow(0, 0, 0);
+        margin-top: 5px;
+    }
+}

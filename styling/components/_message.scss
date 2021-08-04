@@ -1,0 +1,21 @@
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    min-width: fit-content;
+    height: 58%;
+    min-height: fit-content;
+    position: absolute;
+    margin-bottom: 3%;
+    background: linear-gradient(#FAC668, #FE886B);
+    background: -moz-linear-gradient(#FAC668, #FE886B);
+    background: -ms-linear-gradient(#FAC668, #FE886B);
+    background: -o-linear-gradient(#FAC668, #FE886B);
+    background: -webkit-linear-gradient(#FAC668, #FE886B);
+    color: white;
+    font-size: 50px;
+    opacity: 0;
+    @include _transition(1s);
+}
